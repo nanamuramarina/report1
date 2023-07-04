@@ -71,13 +71,13 @@ footer{
   background-color: #aaa;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   header{
     width: 100%;
   }
 
   body{
-    max-width: 425px;
+    max-width: 768px;
     margin: 0 auto;
   }
 
