@@ -1,5 +1,5 @@
 *{
-  margin: 0;
+  margin: 0; 
   padding: 0;
   box-sizeing:border-box;
 }
@@ -9,7 +9,11 @@ header{
   background-color: #ff9a4b;
 }
 
-main{
+body{
+  margin: 0 auto;
+}
+
+.main{
   width: 960px;
   margin: 50px auto;
   display: flex;
@@ -71,17 +75,28 @@ footer{
     width: 100%;
   }
 
-  main{
+  body{
+    max-width: 425px;
+    margin: 0 auto;
+  }
+
+  .main{
    display: block;
-   flex-flow: column;
+   max-width: 100%;
+   align-items: center;
   }
 
   .step-box{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin: 20px; 
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 5% 20px 5%;
   }
 
+  .step-box ul li:last-child{
+     margin: 0 5% 50px 5%;
+     width: 90%;
+  }
 
   footer{
     width: 100%;
